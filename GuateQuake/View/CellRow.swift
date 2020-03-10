@@ -52,7 +52,6 @@ struct CellRow: View {
             
             VStack {
                 Text(data.properties.place)
-                    .foregroundColor(.gray)
                     .bold()
                 
                 Text("Time: \(timeConverter(timeStamp: data.properties.time))")
