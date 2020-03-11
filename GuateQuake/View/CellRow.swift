@@ -48,7 +48,7 @@ struct CellRow: View {
                 
             }.clipShape(Circle())
                 .overlay(Circle().stroke(Color.gray, lineWidth: 1))
-                .shadow(radius: 10)
+                .shadow(radius: 5)
             
             VStack {
                 Text(data.properties.place)

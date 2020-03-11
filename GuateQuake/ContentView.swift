@@ -16,6 +16,8 @@ struct ContentView: View {
                 NavigationLink(destination: QuakeDetails(data: data)) {
                     CellRow(data: data)
                 }.navigationBarTitle("GuateQuakes")
+            }.onAppear {
+                UITableView.appearance().separatorStyle = .none
             }
         }
     }
