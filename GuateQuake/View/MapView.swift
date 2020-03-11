@@ -28,7 +28,7 @@ struct MapView: UIViewRepresentable {
         
         annotation.coordinate = coordinate
         annotation.title = data.properties.place
-        annotation.subtitle = "Magnitude: \(data.properties.mag)"
+        annotation.subtitle = "Magnitud: \(data.properties.mag)"
         
         uiView.addAnnotation(annotation)
     }

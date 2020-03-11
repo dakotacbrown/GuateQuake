@@ -54,7 +54,7 @@ struct CellRow: View {
                 Text(data.properties.place)
                     .bold()
                 
-                Text("Time: \(timeConverter(timeStamp: data.properties.time))")
+                Text("Fecha: \(timeConverter(timeStamp: data.properties.time))")
                     .italic()
                     .foregroundColor(.orange)
                     .font(.subheadline)
